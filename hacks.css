@@ -1,0 +1,8 @@
+#height-calc{
+height: calc(100% - 95px);
+height: -webkit-calc(100% - 95px);  /* for Chrome */
+height: -moz-calc(100% - 95px);     /* for Firefox */
+}
+::i-block-chrome,#height-calc{ /* for Safari only and not for Chrome */
+height: 100%;
+}
