@@ -1,0 +1,39 @@
+<html>
+<head>
+	<style type="text/css">
+	.promote-panel { 
+	  position: relative;
+	  border: 1px solid #ccc;
+	  border-radius: 5px;
+	  padding:20px;
+	  background-color:#eee;
+	  animation: promote-panel-animation 1s ease; 
+	  font-family:sans-serif;
+	}
+	h5{ 
+	  font-size: 25px;
+	  margin:0;
+	  color:red;
+	}
+	h6{ 
+	  font-size: 20px;
+	  margin:0;
+	  color:grey;
+	}
+	@keyframes promote-panel-animation {
+	  from { 
+	  left: -1600px;
+	  }
+	  to { 
+	  left: 0;
+	  }
+	}
+	</style>
+</head>
+<body>
+<div class="promote-panel">
+    <h5 class="primary-color font-semibold">This is an animated panel. </h5>
+    <h6>Make animations with only CSS. </h6>
+</div>
+</body>
+</html>
